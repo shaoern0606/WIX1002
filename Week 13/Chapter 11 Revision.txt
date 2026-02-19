@@ -1,0 +1,38 @@
+Chapter 11 Exception Handling Revision
+
+- When an error occurs in a Java program it usually results in an exception being thrown.
+- Using exception handling, the exception is caught and processed.
+- try {
+     // try block
+  } catch (ExceptionOne e) {
+    // catch block
+  } catch (ExceptionTwo e) {
+    // catch block
+  } finally {
+     // Code to be executed whether or not an exception is thrown
+  }
+
+- predefined exceptions
+  - IOException
+  - NoSuchMethodException
+  - FileNotFoundException
+  - NumberFormatException
+  - DivisionByZeroException
+  - ArrayIndexOutOfBoundsException
+  - InputMismatchException
+
+- a new exception class can be a derived class of any exception class
+   public class exceptionClassName extends Exception {
+      public exceptionClassName() {
+         super("Error Message");
+      }
+      public exceptionClassName(String s) {
+         super(S);
+      }
+   }
+
+- an exception can be thrown in a method 
+  - public returnType methodName(parameterType parameterName, ..) throws ExceptionName, …
+
+
+
