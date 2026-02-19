@@ -1,0 +1,5 @@
+Introduction to Java,2020,Pearson,112.80
+Introduction to Networking,2019,Cisco Press,152.30
+Internet of Things,2019,Cisco Press,64.75
+Information Systems,2019,McGraw Hill,89.90
+Artificial Intelligence,2019,MIT Press,75.40
